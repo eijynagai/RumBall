@@ -15,7 +15,7 @@ function usage()
     echo "      $cmdname star/Matrix 2:2 WT:KD Human" 1>&2
 }
 
-p=0.05
+p=0.01
 nGene_GO=500
 while getopts t:n: option
 do
